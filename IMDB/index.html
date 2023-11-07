@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>IMDB</title>
+</head>
+<body>
+    <div class="con">
+        <input type="text" placeholder="Enter the movie name" class="input"  id="MovieName">
+        <button class="search" onclick="searchmovie()">Search Movie</button>
+    </div>
+    <div class="box">
+        <div class="content">
+                <h2 id="title">The Avengers</h2>
+                <p>Director: <span id="director"></span></p>
+                <p>Actors: <span id="actors"></span></p>
+                <p>Box Office Collection: <span id="collection"></span></p>
+                <p>Description: <span id="desc"></span></p>
+                <p>Awards: <span id="awards"></span></p>
+                <p>Writer: <span id="writer"></span></p>
+                <p>IMDB Rating: <span id="rating"></span></p>
+                <p>Genere: <span id="genere"></span ></p>
+                <p>Release on: <span id="release"></span></p>
+        </div>
+        <img id="poster" src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" alt="">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
